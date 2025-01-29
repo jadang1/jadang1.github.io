@@ -1,0 +1,97 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    line-height: 140%;
+    background-color: rgb(252,251,248); 
+    color: rgb(27, 18, 18); 
+}
+
+header, footer {
+    background-color: rgb(255,140,0); 
+    color: rgb(252,251,248); 
+    text-align: left;
+    padding: 1.5em;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    opacity: 70%;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+
+}
+
+
+h3 {
+    color: rgb(255,140,0); 
+    margin-bottom: 0.5em;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 1em;
+}
+
+p, ul, ol {
+    margin: 1em 0;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: rgb(27, 18, 18); 
+    margin-top: 0.5em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+}
+
+.ingredients, .directions {
+    margin: 1.5em 0;
+}
+
+.ingredients ul, .directions ol {
+    padding-left: 1.5em; 
+}
+
+.ingredients ul li, .directions ol li {
+    padding-bottom: 1.5em; 
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+.directions ol {
+    list-style: decimal; 
+}
+
