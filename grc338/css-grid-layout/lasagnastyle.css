@@ -1,0 +1,114 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    background-color: rgb(252,251,248);
+    color: rgb(27, 18, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(255,140,0);
+    color: rgb(252,251,248);
+    text-align: left;
+    padding: 1.5em;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(255,140,0);
+    color: rgb(252,251,248);
+    text-align: left;
+    padding: .5em;
+    width: 100%;
+}
+
+header h1 {
+    font-family: Sutro, serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+header h2 {
+    opacity: 70%;
+    font-weight: 300;
+    font-size: 1em;
+    font-family: Sutro, serif;
+}
+
+h3 {
+    color: rgb(255,140,0);
+    margin-bottom: .5em;
+    font-family: Sutro, serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-left: 1em;
+    border-top: 1.5px solid rgb(255,140,0);
+    padding-top: 1em;
+    margin-top: 1.5em;
+}
+
+p, ul, ol {
+    margin: 1em 0;
+}
+
+figure {
+    display: flex;
+    align-items: flex-start; 
+    width: 100%;
+    justify-content: flex-start; 
+}
+
+figure img {
+    width: 80%; 
+    height: auto;
+}
+
+figcaption {
+    font-size: 1em;
+    color: rgb(27, 18, 18);
+    margin-top: .5em;
+    margin-left: .5em; 
+    padding: .5em;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    width: 20%; 
+    margin-top: 0; 
+}
+
+
+main {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.ingredients, .directions {
+    width: 48%;
+}
+
+.ingredients ul, .directions ol {
+    padding-left: 1.5em;
+}
+
+.ingredients ul li, .directions ol li {
+    padding-bottom: 1.5em;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
