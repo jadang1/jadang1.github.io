@@ -1,112 +1,99 @@
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: grid;
+    grid-column: 1/5
+}
+div.container {
+    max-width: 60em;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(255, 140, 0);
+    padding: 1em 3em 1.5em 1em;
 }
 
 body {
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 140%;
-    background-color: rgb(252,251,248);
-    color: rgb(27, 18, 18);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 900px));
-    gap: 1.5em;
-    width: 100%;
-    max-width: 900px;
-}
-
-header, footer {
-    background-color: rgb(255,140,0);
-    color: rgb(252,251,248);
-    text-align: left;
-    padding: 1.5em;
-}
-
-footer {
-    padding: 0.5em;
-}
-
-header h1 {
-    font-family: Sutro, serif;
-    font-weight: 700;
-    font-size: 1.5em;
-}
-
-header h2 {
-    opacity: 70%;
-    font-weight: 300;
-    font-size: 1em;
-    font-family: Sutro, serif;
-}
-
-h3 {
-    color: rgb(255,140,0);
-    margin-bottom: .5em;
-    font-family: Sutro, serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    padding-left: 1em;
-    border-top: 1.5px solid rgb(255,140,0);
-    padding-top: 1em;
-    margin-top: 1.5em;
-}
-
-p, ul, ol {
-    margin: 1em 0;
-}
-
-figure {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 1em;
-    align-items: flex-start;
-    width: 100%;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-}
-
-figcaption {
-    font-size: 1em;
-    color: rgb(27, 18, 18);
-    padding: .5em;
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    text-align: left;
+    background-color: rgb(216, 216, 216);
+    color: rgb(22, 22, 22)
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5em;
+    grid-template-columns: 1fr 1fr;
 }
 
-.ingredients, .directions {
-    display: flex;
-    flex-direction: column;
+figure{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.ingredients ul, .directions ol {
-    padding-left: 1.5em;
+h1 {
+    font-family: Sutro, serif;  
+    font-weight: bold;   
+    font-style: normal;
+    font-size: 2.2em;
+    margin :.5em 1em 0.2em 0.2em;
+    color: rgb(255,255,255);
 }
 
-.ingredients ul li, .directions ol li {
-    padding-bottom: 1.5em;
-    font-family: poppins, sans-serif;
-    font-weight: 400;
+h2 {
+    font-family: Sutro, serif; 
+    font-size: 1.5em;
+    margin :.2em 1em 0em 0.2em;
+    color: rgb(255,229,204);
+}
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    font-size: .9em;
+    margin: .5em ;
+    padding: 1em;
+}
+
+h3 {
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: rgb(255, 140, 0);
+    margin: 1.5em 1.5em 1.5em ;
+    padding-top: 1em;
+    grid-column: 1/3;
+    border-top: 2px solid rgb(255, 140, 0);
+}
+
+ul {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    margin: 0em 0em 2em .8em;
+}
+
+ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    margin: 0em 0em 3em .8em;
+}
+
+li {
+    margin: 1em
+}
+
+footer {
+    background-color: rgb(255, 140, 0);
+    padding: 1.5em;
+    color: rgb(255,255,255);
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
 }
