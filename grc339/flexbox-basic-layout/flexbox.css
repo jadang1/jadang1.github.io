@@ -13,7 +13,7 @@ header {
 }
 
 article { 
-	flex: 1 0 30em; 
+	flex: 1 0 25em; 
 
 }
 
@@ -34,11 +34,12 @@ figure {
 }
 
 h2 { 
-	margin-top: 1.5em; 
+	margin-top: 2em; 
 }
 
 h3 { 
 	margin-bottom: 0em; 
+	font-size: 1.5em;
 
 }
 
