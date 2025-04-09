@@ -5,45 +5,41 @@ div.container {
 	flex-wrap: wrap; 
 	max-width: 60em; 
 	margin: auto; 
+	gap: 1em;
 }
 
 header { 
 	flex: 1 0 100%;
-	margin-left: 2em; 
 }
 
 article { 
-	flex: 2 0 30em; 
-	margin: .5em; 
+	flex: 1 0 30em; 
+
 }
 
 section { 
-	flex: 1; 
 	margin-bottom: 1em;
-	padding: .5em 0 .5em 0;
+	padding: 1em;
 	background-color: #ececec;
 	 
 }
 
 section p { 
-	margin: 1em; 
+	margin-top: .5em; 
 }
 
-section h3{ 
-	margin: 1em;
+figure { 
+	padding: 0em; 
+	margin: 0em; 
 }
 
 h2 { 
-	margin-left: 1.5em; 
+	margin-top: 1.5em; 
 }
 
 h3 { 
-	margin: 2.5em; 
+	margin-bottom: 0em; 
 
-}
-
-p { 
-	margin-left: 2.5em; 
 }
 
 a { 
@@ -53,11 +49,18 @@ a {
 
 aside { 
 	flex: 1 0 15em;
+	margin: 0em; 
+}
+
+ol { 
+	margin-left: 0em; 
+	list-style-position: outside;
 }
 
 footer { 
 	flex: 1 0 100%; 
 	border-top: 2px solid #ccc; 
+	padding-top: .5em; 
 }
 
 body {
