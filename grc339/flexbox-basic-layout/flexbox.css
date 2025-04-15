@@ -13,7 +13,7 @@ header {
 }
 
 article { 
-	flex: 1 0 25em; 
+	flex: 1 0 30em; 
 
 }
 
@@ -45,7 +45,7 @@ h3 {
 
 a { 
 	text-decoration: none; 
-	color: black; 
+	color: #000000; 
 }
 
 aside { 
