@@ -53,7 +53,7 @@ figcaption {
 nav {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: .3em;
+    grid-gap: .2em;
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
