@@ -20,24 +20,28 @@ nav ul li {
     list-style-type: none;
     margin-bottom: .3rem;
     margin-right: 1rem;
-    font-family: sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.3rem;
 }
 
 h1 {
-    font-family: serif;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    font-style: normal;
     width: 10em;
     padding-bottom: 1rem;
     margin-top: 1rem;
 }
 
 h2{
-    font-family: serif;
-    color: #6082B6;
-    font-weight: bold;
+    font-family: "playfair-display", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #CA217C; /* fuchsia */
     font-size: 2.5rem;
     margin-top: .5rem;
-    
 }
 
 .secondary h2 {
@@ -46,14 +50,15 @@ h2{
 
 .tertiary h2 {
     font-size: 1rem;
-    border-top: 1px solid;
+    border-top: 1px solid #C9B2DB; /* lavender */
     padding-top: .5rem;
 }
 
 p {
-    font-family: sans-serif;
-    font-weight: normal;
-    color: rgb(0,0,0);
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #441900; /* chestnut */
     padding-bottom: 1.5rem;
 }
 
@@ -63,26 +68,30 @@ header, h2, p, figcaption {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
     font-style: italic;
-    color: #808080;
+    color: #998AA8; /* mauve */
+    margin-top: .5rem;
     margin-bottom: 1rem;
 }
 
 a {
     text-decoration: none;
-    color: #7393B3;
+    color: #D66786; /* rose-pink */
     font-weight: bold;
 }
 
 aside {
-    background-color: #aaa8d4;
+    background-color: #DAD8E8; /* dawn */
     padding: .5rem;
 }
 
 footer {
-    font-family: sans-serif;
-    background-color: #7393B3;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #441900; /* chestnut */
     color: rgb(255, 255, 255);
     font-size: 1rem;
     padding: 1rem;
@@ -187,4 +196,3 @@ footer {
         padding: 0;
     }
 }
-
