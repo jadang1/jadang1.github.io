@@ -127,7 +127,7 @@ footer {
 
 .gallery-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(9.4rem, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -193,7 +193,7 @@ form input[type="checkbox"] {
 
 form button {
   background-color: #CA217C;
-  color: white;
+  color: #fff;
   padding: 0.7em 1.5em;
   border: none;
   font-family: "sofia-pro", sans-serif;
@@ -289,5 +289,65 @@ form button:hover {
 
   header, h2, p, figcaption {
     padding: 0;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+  h1 {  
+    background-image: url("altlogo.svg");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+    }  
+
+    h1 img {  
+    opacity: 0;  
+    }  
+
+    body {
+    background-color: #1a1a1a;
+    color: #f4ece1;
+  }
+
+  header, footer, aside {
+    background-color: #2b2b2b;
+    color: #f4ece1;
+  }
+
+  nav ul li a {
+    color: #db9eb1;
+  }
+
+  h2 {
+    color: #db9eb1;
+  }
+
+  p, figcaption, form label {
+    color: #f4ece1;
+  }
+
+  .gallery-row figcaption,
+  .featured-caption {
+    color: #db9eb1;
+  }
+
+  form section {
+    background-color: #2b2b2b;
+  }
+
+  form input,
+  form textarea {
+    background-color: #333;
+    color: #f4ece1;
+    border: 1px solid #555;
+  }
+
+  form button {
+    background-color: #db9eb1;
+    color: #1a1a1a;
+  }
+
+  form button:hover {
+    background-color: #b87d95;
   }
 }
